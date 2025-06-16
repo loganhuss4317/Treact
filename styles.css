@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 a {
@@ -11,21 +12,29 @@ a {
 
 /* nav */
 
+#landing {
+    box-sizing: border-box;
+}
+
+
 nav {
   width: 100%;
   max-width: 1200px;
-  margin: auto 0;
+  padding-top: 24px;
+  display: flex;
   
 }
 
-.nav__container {
+.nav__row {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 
 .nav__links {
     display: flex;
     align-items: center;
+    padding-bottom: 2px;
 }
 
 .nav__logo {
@@ -38,6 +47,24 @@ nav {
 .nav__logo--img {
     width: 40px;
     height: 40px;
+}
+
+.nav__logo--title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 8px;
+    letter-spacing: 0.6px;
+    padding-bottom: 2px;
+}
+
+.nav__link {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 4px;
+    letter-spacing: 0.35px;
+    border-bottom: 2px;
+    position: relative;
+    padding: 16px 16px;
 }
 
 
