@@ -1,9 +1,13 @@
 /* body */
 
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 a {
@@ -54,7 +58,7 @@ nav {
 }
 
 .nav__logo--title {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 900;
     margin-left: 8px;
     letter-spacing: 0.6px;
@@ -62,7 +66,7 @@ nav {
 }
 
 .nav__link {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     padding-top: 4px;
     letter-spacing: 0.35px;
@@ -85,10 +89,6 @@ nav {
     border-style: none;
     border-color: initial;
     border-image: initial;
-}
-
-.btn__menu {
-    
 }
 
 
