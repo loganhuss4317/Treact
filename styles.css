@@ -16,13 +16,15 @@ a {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 36px;
     line-height: 1.25;
 }
 
+button {
+    cursor: pointer;
+}
+
 /* nav */
-
-
 
 nav {
   width: 100%;
@@ -94,22 +96,72 @@ nav {
 /* header */
 
 header {
-    display: block;
-    unicode-bidi: isolate;
+    position: relative;
 }
 
 .container {
-    padding: 96px; 0;
+    padding: 96px 0;
 }
 
 .header__email {
     width: 100%;
-    max-width: 480px;
+    max-width: 448px;
     height: 68px;
     position: relative;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: flex-end;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header__description {
+    width: 41.6667%;
+}
+
+.header__description--para {
+    margin: 32px 0;
+}
+
+.header__email--btn {
+    z-index: 2;
+    height: calc(100% - 16px);
+    width: 160px;
+    background-color: rgb(100, 21, 255);
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 16px;
+    margin: 8px;
+    border-radius: 500px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    transition: 300ms;
+}
+
+.header__customers--title {
+    margin-top: 80px;
+    color: rgb(160, 174, 192);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+}
+
+.header__img--wrapper {
+    width: calc(58.3333%);
+}
+
+.header__customers {
+    margin-top: 16px;
+}
+
+.header__img {
+    width: 100%;
 }
 
 .header__email--input {
@@ -130,23 +182,11 @@ header {
     transition: border-color 300ms;
 }
 
-header.row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* Landing */
+
+#landing {
+    padding: 0 32px;
 }
-
-.row {
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
-header.description {
-
-}
-
-
 
 
 
