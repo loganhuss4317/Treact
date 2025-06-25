@@ -113,7 +113,7 @@ header {
     justify-content: flex-end;
 }
 
-.row {
+.header__row {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -237,15 +237,17 @@ figure.header__img--wrapper {
     margin-top: 40px;
 }
 
-.feature {
-    width: calc(100% / 3);
-}
-
 .feature__row {
     display: flex;
     align-items: flex-start;
     padding: 32px 24px;
 }
+
+.feature {
+    width: calc(100% / 3);
+}
+
+
 
 
 
