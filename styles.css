@@ -38,6 +38,12 @@ button {
     border: none;
 }
 
+.row {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
 /* nav */
 
 .nav {
@@ -914,10 +920,11 @@ footer {
     padding: 80px 32px;
 }
 
-footer.row.footer__row {
+div.row.footer__row {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
+    flex-direction: column;
 }
 
 .footer__columns {
