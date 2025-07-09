@@ -44,6 +44,10 @@ button {
     margin: 0 auto;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* nav */
 
 .nav {
@@ -932,6 +936,7 @@ div.row.footer__row {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .footer__column {
@@ -969,6 +974,7 @@ div.row.footer__row {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .footer__logo {
@@ -1011,5 +1017,10 @@ div.row.footer__row {
     z-index: 2;
     cursor: pointer;
     transition: all 300ms;
+}
+
+.footer__social--link svg {
+    height: 16px;
+    width: 16px;
 }
 
