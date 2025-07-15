@@ -52,6 +52,7 @@ h1 {
     color: #1a202c;
     line-height: 1.25;
     font-size: 36px;
+    text-align: center;
 }
 
 /* nav */
@@ -88,6 +89,7 @@ nav {
   display: flex;
   align-items: center;
   padding-bottom: 2px;
+  position: relative;
 }
 
 .nav__logo {
@@ -208,7 +210,6 @@ header .row {
   justify-content: flex-end;
 }
 
-
 .header__description {
   width: 41.6667%;
 }
@@ -247,7 +248,7 @@ header .row {
 .header__img--wrapper {
   width: 50%;
   height: 50%;
-  position: absolute;
+  position: relative;
   right: 0;
 }
 
@@ -326,10 +327,6 @@ header .row {
   width: 100%;
   flex-wrap: wrap;
   display: flex;
-}
-
-.feature {
-  width: calc(100% / 3);
 }
 
 .feature__row {
@@ -1158,5 +1155,10 @@ div.row.footer__row {
     }
     main {
         margin-bottom: 80px;
+    }
+
+    .header__email {
+        flex-direction: column;
+        height: auto;
     }
 }
