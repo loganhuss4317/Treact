@@ -246,10 +246,9 @@ header .row {
 }
 
 .header__img--wrapper {
-  width: 50%;
-  height: 50%;
-  position: relative;
-  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  width: calc(100% - 42.6667);
 }
 
 .header__customers {
@@ -258,6 +257,7 @@ header .row {
 }
 
 .header__img {
+  max-width: 512px;
   width: 100%;
 }
 
@@ -1122,6 +1122,11 @@ div.row.footer__row {
     .header__description__para {
         font-size: 16px;
     }
+
+    .header__img--wrapper {
+        display: flex;
+        justify-content: flex-end;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -1153,6 +1158,10 @@ div.row.footer__row {
 
     .nav__links {
         display: none;
+    }
+
+    .header__customers--title, .header__img--wrapper {
+        margin-top: 48px;
     }
 }
 
